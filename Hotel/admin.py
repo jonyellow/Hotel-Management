@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from DJangoHotel.models import Hotel, Customer, RoomInfo,Order
+from Hotel.models import Hotel, Customer, RoomInfo,Order
 
 
 class HotelAdmin(admin.ModelAdmin):
